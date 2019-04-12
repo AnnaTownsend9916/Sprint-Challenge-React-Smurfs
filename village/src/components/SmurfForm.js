@@ -20,7 +20,7 @@ class SmurfForm extends Component {
     }
 
     postSmurf = smurf =>{
-      axios.post('http:localhost:3333/smurfs', smurf)
+      axios.post('http:localhost:3333/smurf')
       .then(response=>console.log(response))
       .catch(err=> console.log(err))
     }
